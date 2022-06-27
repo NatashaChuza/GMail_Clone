@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <script
+      src="https://kit.fontawesome.com/66dff7ca5e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="main_layout">
+    <div class="header flex">
+        <div class="flex one center-align evenly-justify">
+            <i class="fa-solid fa-bars pointer" id="menu"></i>
+            <img src="gmail.png" class="logo">
+            <p class="gmail-txt">Gmail</p>
+        </div>
+         <div class="flex five center-align">
+             <div class="flex search-bar center-align evenly-justify">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="search" class="search-input" placeholder="Search Mail">
+                <i class="fa-solid fa-sliders"></i>
+             </div>
+            
+            
+         </div>
+          <div class="flex one center-align evenly-justify">
+              <i class="fa-solid fa-circle-question support pointer"></i>
+              <i class="fa-solid fa-gear pointer settings"></i>
+              <div class="avatar"></div>
+          </div>
+    </div>
+     <div class="content">
+         <div class="sidebar">
+             <div class="flex one-half center-align ">
+                 <button class=" btn shadow pointer" id="compose">
+                     <div class="flex center-align evenly-justify">
+                     <i class="fa-solid fa-pen red-txt"></i>
+                     <p class="red-txt minimise">Compose</p>
+                     </div>
+                     
+                 </button>
+                 <div class="compose-email shadow column make-invisible">
+                     <div class="flex one charcoal center-align space-between-justify">
+                         <p class="white-txt bold margin-left">New Message</p>
+                         <i class="fa-solid fa-xmark grey margin-right pointer" id="remove-compose"></i>
+                     </div>
+                     <div class="flex seven" >
+                         <form class="flex column padding-1">
+                         <input class="input reciepient" placeholder="To:" id="reciepient" type="email">
+                         <input class="input subject" placeholder="Subject:" id="subject">
+                         <textarea class="textarea text" id="text"> </textarea>
+                         </form>    
+                     </div>
+                     <div class="flex two center-align">
+                         <div class="two flex center-align center-justify">
+                               <button class="send-btn flex center-justify center-align pointer" id="send-btn">
+                             <p class="white-txt  bold">send</p>
+                         </button>
+                         </div>
+                         <div class="flex five center-justify evenly-justify">
+                             <i class="fa-solid fa-paperclip grey"></i>
+                             <i class="fa-regular fa-face-grin grey"></i>
+                             <i class="fa-solid fa-image grey"></i>
+                             <i class="fa-solid fa-pen-clip grey"></i>
+                             <i class="fa-solid fa-mobile grey"></i>
+                             <i class="fa-brands fa-google-drive grey"></i>
+                             <i class="fa-solid fa-lock grey"></i>
+                         </div>
+                         <div class="flex one center-align center-justify">
+                             <i class="fa-solid fa-trash-can grey pointer"></i>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="flex eight column">
+                 <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                        <i class="fa-solid fa-tablet-screen-button"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Inbox</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p class="">14,371</p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                       <i class="fa-solid fa-star"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Starred</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                        <i class="fa-solid fa-clock"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Snoozed</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                       <i class="fa-regular fa-file"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Drafts</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p class="">20</p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                       <i class="fa-regular fa-paper-plane"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Sent</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                          <i class="fa-solid fa-bookmark"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Notes</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                       <i class="fa-solid fa-bookmark"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Important</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                        <i class="fa-solid fa-folder"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">Categories</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+                  <div class="sidebar-item flex">
+                     <div class="flex center-align one-half center-justify">
+                        <i class="fa-solid fa-angle-down"></i>
+                     </div>
+                      <div class="flex center-align five minimise">
+                        <p class="">More</p>
+                     </div>
+                      <div class="flex center-align two center-justify minimise">
+                       <p></p>
+                     </div>
+                     
+                 </div>
+             </div>
+             <div class="space-filler">
+
+             </div>
+         </div>
+         <div class="mails_container">
+             <div class="navbar flex">
+                 <div class="flex one center-align evenly-justify">
+                     <i class="fa-regular fa-square"></i>
+                     <i class="fa-solid fa-caret-down"></i>
+                     <i class="fa-solid fa-rotate-right"></i>
+                     <i class="fa-solid fa-ellipsis-vertical"></i>
+                 </div>
+                 <div class="flex eight"></div>
+                 <div class="flex two center-align evenly-justify">
+                     <div>
+                         <p>1-50,of 10,000</p>
+                     </div>
+                     <i class="fa-solid fa-chevron-left"></i>
+                     <i class="fa-solid fa-chevron-right"></i>
+                     <i class="fa-regular fa-keyboard"></i>
+                     <i class="fa-solid fa-caret-down"></i>
+                 </div>
+             </div>
+             <div class="mails flex column">
+                 <div class="mail_categories flex">
+                     <div class="flex one center-align bottom-visible">
+                         <i class="fa-solid fa-tablet-screen-button space-right red-txt"></i>
+                         <p class="red-txt">Primary</p>
+                     </div>
+                     <div class="flex one center-align">
+                         <i class="fa-solid fa-user-group space-right"></i>
+                         <p>Social</p>
+                     </div>
+                     
+                     <div class="flex two center-align">
+                         <i class="fa-solid fa-tag space-right"></i>
+                         <p>Promotions</p>
+                     </div>
+                     <div class="flex one center-align">
+
+                     </div>
+                 </div>
+                 <div class="emails"></div>
+             </div>
+         </div>
+     </div>
+     <script src="script.js"></script>
+    </body>
+</html>
